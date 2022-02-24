@@ -1,0 +1,24 @@
+{
+  "name": "svelte-esbuild-minimal-demo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "dev": "npm start",
+    "start": "sirv build --no-clear"
+  },
+  "devDependencies": {
+    "@craftamap/esbuild-plugin-html": "^0.3.0",
+    "@zerodevx/svelte-toast": "^0.7.0",
+    "esbuild": "^0.14.23",
+    "esbuild-plugin-alias": "^0.2.1",
+    "esbuild-svelte": "^0.6.2",
+    "node-stdlib-browser": "^1.2.0",
+    "svelte": "3.39.0",
+    "svelte-preprocess": "^4.10.4"
+  },
+  "dependencies": {
+    "sirv-cli": "^2.0.0"
+  }
+}
